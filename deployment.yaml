@@ -16,6 +16,8 @@ spec:
     spec:
       containers:
         - name: hello-world
-          image: <your-docker-image-repository>/hello-world:latest
+          image: <your-docker-image-repository>/Devamsh Rai Hello:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
+
