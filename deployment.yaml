@@ -19,5 +19,6 @@ spec:
           image: <your-docker-image-repository>/Devamsh Rai Hello:latest
           imagePullPolicy: Always
           ports:
-            - containerPort: 8080
+            - containerPort: 8000
+            
 
